@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio 6</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/formulario.css">
+</head>
+<body id="a">
+  
+    
+    <header class="ejer1">
+
+        <a href="Index.html">Volver </a>
+    
+
+</header>
+
+	<main>
+		<form  class="formulario" id="formulario">
+           
+			 <div class="formulario__grupo" id="grupo__tdocumento">
+				<label for="tdocumento" class="formulario__label">Tipo Documento</label>
+				<div class="formulario__grupo-input">
+                    <select name="tdocumento" id="tdocumento" class="formulario__input">
+                        <option value="">Seleccione</option>
+                        <option value="tt">Tarjeta de identidad</option>
+                        <option value="cc">Cedula de ciudadania</option>
+                        <option value="pp">Pasaporte</option>
+                    </select>
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Selecciona el tipo de documento.</p>
+			</div>
+
+          
+
+           
+			<div class="formulario__grupo" id="grupo__ndocumento">
+				<label for="ndocumento" class="formulario__label">Número documento</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="ndocumento" id="ndocumento" placeholder="ingrese su numero de documento">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+			
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Nombre</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="nombre ">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+           
+			<div class="formulario__grupo" id="grupo__apellido">
+				<label for="apellido" class="formulario__label">Apellido</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="apellido">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El apellido tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+            
+            
+    
+			<div class="formulario__grupo" id="grupo__fecha">
+				<label for="fecha" class="formulario__label">Fecha de nacimiento</label>
+				<div class="formulario__grupo-input">
+					<input type="date" class="formulario__input" name="fecha" id="fecha">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Debes ser mayor de edad.</p>
+			</div>
+
+            <!-- Grupo: Correo Electronico -->
+			<div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">Correo Electrónico</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="correo" id="correo" placeholder="correo">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+
+			
+
+			<!-- Grupo: Contraseña -->
+			<div class="formulario__grupo" id="grupo__password">
+				<label for="password" class="formulario__label">Contraseña</label>
+				<div class="formulario__grupo-input">
+					<input type="password" class="formulario__input" name="password" id="password">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+			</div>
+
+			<!-- Grupo: Contraseña 2 -->
+			<div class="formulario__grupo" id="grupo__password2">
+				<label for="password2" class="formulario__label">Repetir Contraseña</label>
+				<div class="formulario__grupo-input">
+					<input type="password" class="formulario__input" name="password2" id="password2">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
+			</div>
+
+		
+			<!-- Grupo: Terminos y Condiciones -->
+			<div class="formulario__grupo" id="grupo__terminos">
+				<label class="formulario__label">
+					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+					Acepto los Terminos y Condiciones
+				</label>
+			</div>
+
+            <div class="modal" id="Terminos">
+                <div class="contenido-modal">
+                    <h2 class="title-modal">Términos y Condiciones</h2>
+                    <p class="p-modal">Lore ipsum dolor sit amet consectetur adipisicing elit. Earum qui atque eum doloribus aliquid eos doloremque est quae officia, repellendus dolores maxime eligendi vitae natus aut, libero, deserunt tempora expedita.</p>
+                    <p class="p-modal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, expedita delectus. Et, eveniet iusto enim quidem optio voluptates est voluptas repellendus hic, quam doloribus sequi quia tempore alias. Quibusdam, nulla!</p>
+                    <a href="#" class="button">Aceptar</a>
+                </div>
+            </div>
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+		</form>
+	</main>
+
+	<script src="js/ejercicio6.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

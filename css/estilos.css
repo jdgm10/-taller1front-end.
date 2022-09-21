@@ -1,0 +1,151 @@
+/* ejercicio1 */
+
+
+.titlee{
+    background-color: #0CC;
+    text-align: center;
+    color: aliceblue;
+}
+
+.ejercicio1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#palabra{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 5rem;
+    text-align: center
+}
+
+#longitud, #mayusculas, #minusculas, #primercaracter{
+    display: flex;
+    width:70%;
+    margin-top: 3rem;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #0CC;
+}
+
+
+.ejer1{
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(111, 204, 207);
+    text-align: center;
+    height: 45px;
+}
+.ejer1 a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+}
+
+
+
+#a{
+    background-color: #333;
+}
+
+/* ejercicio 2 */
+
+.ejercicio2{
+
+    color: white;
+    text-align: center;
+
+}
+
+#grados{
+    margin: 1rem;
+    border: none;
+    background-color: white;
+    border: 2px solid black;
+    width: 17%;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.inicial-2{
+    flex-direction: row;
+}
+
+select{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.calcular{
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    font-size: 1em;
+}
+
+.calcular:hover{
+    border: 2px solid black;
+
+}
+
+
+
+/* ejercicio 3 */
+
+.ejercicio3{
+   color: white;
+   text-align: center;
+}
+
+#lado1, #lado2, #lado3{
+    padding: 1rem;
+  
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    
+}
+
+
+
+/* ejercicio 4 */
+
+.ejercicio4{
+   color:white;
+   text-align: center;
+}
+
+#nombre, #apellido, #competencia{
+    font-size: 1em;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 22%;
+}
+/* ejercicio5 */
+.ejercicio5{
+   text-align: center;
+    color: white;
+   
+}
+
+
+/*EJERCICIO 6 FORMULARIO*/
+
+
+
