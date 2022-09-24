@@ -27,7 +27,6 @@ nav{
 .ejer1{
   width: 150px;
   margin: 10px;
-  background-color: rgb(111, 204, 207);
   text-align: center;
   height: 45px;
 }
@@ -37,7 +36,14 @@ nav{
   text-align: center;
   padding: 12px 10px;
   text-decoration: none;
+  background-color: rgb(111, 204, 207);
+  margin-bottom: 30px;
 }
+
+h1{
+  color: #fff;
+}
+
 
 
 
